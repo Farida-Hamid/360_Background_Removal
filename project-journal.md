@@ -70,3 +70,7 @@ Here's a sample for the first object:
 |**'visual_texture':**| None |
 |**'volume':**| 0.018281155256639165 |
 |**'parent_room':**| 17|
+
+### Day 5:
+
+It turns out that the panoramic images in the dataset are the annotations, not the raw images. Gibson is needed to generate the 3D model of the building and give simulate the 360 pictures. I discarded using Gibson earlier in the process since I don't intend to build a reconstruction model. Now I need to use it to get the required data.
